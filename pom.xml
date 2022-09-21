@@ -40,7 +40,10 @@
 		</pluginRepository>
 	</pluginRepositories>
 	<dependencies>
-		<dependency>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.8.1</version>
+	        <dependency>
 			<groupId>org.zkoss.zk</groupId>
 			<artifactId>zkbind</artifactId>
 			<version>${zk.version}</version>
